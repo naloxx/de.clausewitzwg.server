@@ -10,6 +10,6 @@ class RestController(
 ) {
 
     @GetMapping("/")
-    fun greeting() = networkService.test()
+    fun scan() = networkService.fullScan()
 
 }

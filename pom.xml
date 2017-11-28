@@ -94,7 +94,7 @@
                         </goals>
                     </execution>
                     <execution>
-                        <id>test-compile</id>
+                        <id>fullScan-compile</id>
                         <phase>test-compile</phase>
                         <goals>
                             <goal>test-compile</goal>
